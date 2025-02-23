@@ -4,6 +4,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 function Footer() {
   return (
+    <>
     <div className={styles.footer_outer_container}>
       <div className={styles.footer_left}>
         <ul>
@@ -80,6 +81,7 @@ function Footer() {
         </ul>
       </div>
     </div>
+    </>
   );
 }
 
